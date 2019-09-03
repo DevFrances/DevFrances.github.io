@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 2px 2px 2px 2px;
+    background-color: rgb(37, 24, 24);
+    height: 150px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+body{
+    background-color: rgb(233, 225, 225);
+}
+
+img{
+    border: 1px solid white;
+    float: left;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+main{
+    text-align: justify;
+    margin-left: 200px;
+}
+
+hr{
+    width: 75%;
+    height: 2%;
+    border: 3px solid black;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+/* this is the content in the header */
+.content{
+    padding-left: 30px;
+}
+
+/* all h2 tags */
+h2{
+    color: rgb(80, 80, 122);
+}
+
+/* the footer */
+footer{
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(80, 80, 122);
+}
+
+/* this is the container carrying the wrapper */
+.container{
+    height: 250px;
+    width: 50%;
+    background-color:rgb(80, 80, 122)   ;
+    margin-top: 30px;
+    padding: 30px;
+    margin-left: 200px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* this covers all the form tags */
+#wrapper{
+    text-align: center;
+    color: white;
+    margin-left: 50px;
+}
+
+/* this is the adjustments for the input elements housing the name, email, title and message */
+input{
+    border-radius: 3px 3px 3px 3px;
+    padding-left: 10px;
+}
+
+/* this is the message box, used to increase the size of the textbox for message */
+#textid{
+    height:100px
+}
+
+/* this is the submit button */
+#click{
+    margin-top: 15px;
+    background-color: rgb(27, 27, 49);
+    color: white;
+    
+}
+
+/* the contact me */
+h1{
+    color: white;
+    margin-right: 70px;
+}
+
